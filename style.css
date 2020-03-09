@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 0%;
+}
+p#encabezado{
+    position: absolute;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  border: rgb(134, 110, 62) 2px solid;
+  background-color: rgb(245, 190, 119);
+  text-align: center;
+}
+p#verde {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: rgb(54, 129, 54) 4px solid;
+    background-color: rgb(158, 250, 135);
+    text-align: center;
+  }
+p {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  p#amarillo {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: rgb(221, 221, 67) 4px solid;
+    background-color: rgb(238, 238, 118);
+    text-align: left;
+  }
+  p#azul {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: rgb(159, 190, 198) 4px solid;
+    background-color: rgb(204, 247, 255);
+    text-align: right;
+  }
+  
+  p#lila {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: rgb(196, 170, 196) 4px solid;
+    background-color: rgb(255, 229, 244);
+    text-align: left;
+  }
+  
+  p#rojo {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: rgb(150, 110, 110) 4px solid;
+    background-color: rgb(253, 165, 165);
+    text-align: right;
+  }
+  
+  p:hover {
+    z-index: 3;
+  }
